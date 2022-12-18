@@ -1,6 +1,9 @@
 name: "ZAP Baseline Scan"
 
 on:
+  push: 
+    branches:
+      - main
   schedule:
     - cron:  '0 18 * * 6'
 
